@@ -40,17 +40,44 @@ This is especially valuable when systems are:
 
 ---
 
-## 0.4 Typical MBD workflow (high-level) [ALL]
 
 A practical way to understand MBD is through its workflow:
-**Requirements → Design → Implementation → Integration & Test/Verification**  
-where models are used continuously to simulate, verify, and automate deliverables across phases. [1](https://caterpillar.sharepoint.com/teams/LWLWDCOn-boardingandLearning/Shared%20Documents/01%20Performance%20Controls%20Learning%20Library/12%20Functional%20Safety/Functional%20Safety%20of%20Control%20Systems%20-%20Overview%20and%20Functional%20Safety%20Letter%20Template%20instructions.pdf?web=1)[3](https://caterpillar.sharepoint.com/teams/CatGitHubUserGroup/Shared%20Documents/Forms/DispForm.aspx?ID=28&web=1)
+**Requirements → Design → Implementation → Integration & Test/Verification**, where models are used continuously to simulate, verify, and automate deliverables across phases.
+
+### Figure: Model-Based Design workflow (MathWorks reference)
+
+<div align="center">
+  <img src="https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/solutions/modelbaseddesign/model-based-design-workflow-vertical.svg"
+       alt="MathWorks Model-Based Design workflow diagram"
+       style="max-width: 75%; height: auto;" />
+</div>
+
+<small>
+
+**Source (reference):** MathWorks — Model-Based Design overview page.  
+https://www.mathworks.com/solutions/model-based-design.html
+
+</small>
 
 During design, the model can include (depending on project scope):
 - environment models,
 - physical component/plant models,
 - algorithms/control logic,
 and then connect to verification and integration activities. [1](https://caterpillar.sharepoint.com/teams/LWLWDCOn-boardingandLearning/Shared%20Documents/01%20Performance%20Controls%20Learning%20Library/12%20Functional%20Safety/Functional%20Safety%20of%20Control%20Systems%20-%20Overview%20and%20Functional%20Safety%20Letter%20Template%20instructions.pdf?web=1)[3](https://caterpillar.sharepoint.com/teams/CatGitHubUserGroup/Shared%20Documents/Forms/DispForm.aspx?ID=28&web=1)
+
+
+### Figure: Example Model-Based Design workflow in Simulink (MathWorks reference)
+
+<div align="center">
+  <img src="https://in.mathworks.com/help/simulink/gs/example_workflow.png"
+       alt="Example Model-Based Design workflow in Simulink"
+       style="max-width: 80%; height: auto;" />
+</div>
+
+<small>
+
+**Source (reference):** MathWorks Simulink Documentation — Model-Based Design with Simulink.  
+
 
 ---
 
