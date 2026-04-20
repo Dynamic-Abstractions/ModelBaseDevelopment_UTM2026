@@ -16,6 +16,12 @@ A reusable reference application for Lane Keeping Assist (LKA) using:
 - Not a claim of ISO 26262 compliance  
 (We provide an **ISO 26262-aligned mapping** of artifacts and evidence.)
 
+## Requirements
+
+- CARLA Simulator 0.10.0
+- Python 3.11.x
+- MATLAB 2024a
+  
 ## Quickstart
 1. Follow `docs/00_Quickstart.md`
 2. Run baseline scenario: `docs/06_Scenarios.md#baseline`
